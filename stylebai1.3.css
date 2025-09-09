@@ -1,0 +1,52 @@
+  body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .bg-custom-green {
+            background-color: #0d4a4d;
+        }
+        .nav-link:hover {
+            color: #a7f3d0;
+        }
+        .fixed-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #0d4a4d;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            padding-top: 6rem;
+        }
+        .scroll-smooth-section {
+            scroll-margin-top: 6rem;
+        }
+        /* Chế độ Tối (Dark mode) */
+        body.dark {
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+        body.dark .bg-white {
+            background-color: #2d3748;
+            color: #e2e8f0;
+        }
+        body.dark .text-gray-800 {
+            color: #f7fafc;
+        }
+        body.dark .text-gray-700 {
+            color: #cbd5e0;
+        }
+        body.dark .text-gray-600 {
+            color: #a0aec0;
+        }
+        body.dark .text-gray-500 {
+            color: #718096;
+        }
+        body.dark .border-gray-200 {
+            border-color: #4a5568;
+        }
+        body.dark .bg-white.shadow-xl {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+        }

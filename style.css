@@ -1,0 +1,25 @@
+  body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .bg-custom-green {
+            background-color: #0d4a4d;
+        }
+        .nav-link:hover {
+            color: #a7f3d0;
+        }
+        .fixed-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #0d4a4d;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            padding-top: 6rem;
+        }
+        .scroll-smooth-section {
+            scroll-margin-top: 6rem;
+        }
